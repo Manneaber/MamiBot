@@ -82,8 +82,10 @@ namespace MamiBot2
             var Asterisk = new AsteriskCommand();
             Asterisk.RegisterSubCommand(new SubCommandAbout());
             Asterisk.RegisterSubCommand(new SubCommandJohn());
-            Asterisk.RegisterSubCommand(new SubCommandGay());
             Asterisk.RegisterSubCommand(new SubCommandPoint());
+            //Asterisk.RegisterSubCommand(new SubCommandSlot());
+            Asterisk.RegisterSubCommand(new SubCommandSaikung());
+            Asterisk.RegisterSubCommand(new SubCommandSetting());
             Asterisk.RegisterSubCommand(new SubCommandHelp());
             Commands.Add(Asterisk);
             Commands.Add(new ChatFilter());
@@ -105,6 +107,9 @@ namespace MamiBot2
                     break;
                 case "6":
                     EnumRole = Message.Role.MOD;
+                    break;
+                case "5":
+                    EnumRole = Message.Role.CHAT;
                     break;
                 case "4":
                     EnumRole = Message.Role.SUBER;

@@ -27,7 +27,7 @@ namespace MamiBot2.Commands.SubCommandImpl
         }
         public bool Parse(Message msg, string[] args)
         {
-            Mamichan.SendMessage("MamiBot พร้อมทำงานคะ!");
+            Mamichan.SendMessage("MamiBot พร้อมทำงานค่ะ!");
             return true;
         }
     }

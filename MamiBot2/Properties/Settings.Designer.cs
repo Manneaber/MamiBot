@@ -58,5 +58,17 @@ namespace MamiBot2.Properties {
                 this["RoomID"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int AnswerPoint {
+            get {
+                return ((int)(this["AnswerPoint"]));
+            }
+            set {
+                this["AnswerPoint"] = value;
+            }
+        }
     }
 }

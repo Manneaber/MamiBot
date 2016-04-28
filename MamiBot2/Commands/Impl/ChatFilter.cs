@@ -21,8 +21,29 @@ namespace MamiBot2.Commands.Impl
         {
             switch(msg.Msg)
             {
-                case "Test":
-                    Mamichan.SendMessage(":D");
+                case "เกมอะไรครับ":
+                    Mamichan.SendMessage("ให้ทาย");
+                    break;
+                case "ให้ทาย":
+                    Mamichan.SendMessage("ยอมแล้วเฉลยที");
+                    break;
+                case "สวัสดีครับ":
+                    Mamichan.SendMessage("สวัสดีครับ");
+                    break;
+                case "สวัสดีค่ะ":
+                    Mamichan.SendMessage("สวัสดีค่ะ");
+                    break;
+                case "ใคร":
+                    Mamichan.SendMessage("แน่นอนว่าไม่ใช่มามิบอท");
+                    break;
+                case "ปลาอะไรใช้แล้ว":
+                    Mamichan.SendMessage("KappaPride");
+                    break;
+                case "ขอ ip หน่อยครับ":
+                    Mamichan.SendMessage("อ่านคำอธิบายกลุ่มด้วยครับ");
+                    break;
+                case "ใครเป็นเกย์":
+                    Mamichan.SendMessage("ต๊วงเกย์");
                     break;
                 default:
                     break;

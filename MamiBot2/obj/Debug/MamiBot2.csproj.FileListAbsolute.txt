@@ -52,3 +52,21 @@ D:\Storage\Visual Studio Projects\Old\MamiBot2\MamiBot2\obj\Debug\MamiBot2.Prope
 D:\Storage\Visual Studio Projects\Old\MamiBot2\MamiBot2\obj\Debug\MamiBot2.csproj.GenerateResource.Cache
 D:\Storage\Visual Studio Projects\Old\MamiBot2\MamiBot2\obj\Debug\MamiBot2.exe.manifest
 D:\Storage\Visual Studio Projects\Old\MamiBot2\MamiBot2\obj\Debug\MamiBot2.application
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\bin\Debug\MamiBot2.exe.config
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\obj\Debug\MamiBot2.exe
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\obj\Debug\MamiBot2.pdb
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\obj\Debug\MamiBot2.csprojResolveAssemblyReference.cache
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\obj\Debug\MamiBot2.Form1.resources
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\obj\Debug\MamiBot2.Properties.Resources.resources
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\obj\Debug\MamiBot2.csproj.GenerateResource.Cache
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\bin\Debug\MamiBot2.exe.manifest
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\bin\Debug\MamiBot2.application
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\bin\Debug\MamiBot2.exe
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\bin\Debug\MamiBot2.pdb
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\bin\Debug\EngineIoClientDotNet.dll
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\bin\Debug\SocketIoClientDotNet.dll
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\bin\Debug\WebSocket4Net.dll
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\obj\Debug\MamiBot2.exe.manifest
+C:\Users\Ririma\Documents\Mamibot\MamiBot2\obj\Debug\MamiBot2.application

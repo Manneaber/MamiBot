@@ -88,6 +88,24 @@ namespace MamiBot2.WS
                     ManualResetEvent.Set();
                 });
 
+            socket.On("endans",
+                (data) =>
+                {
+                    dynamic json = Newtonsoft.Json.Linq.JObject.Parse(data.ToString());
+                    if (json.r != null)
+                    {
+                        USettings.addUserPoint(json.r, USettings.answerpoint);
+                    }
+                    else
+                    {
+                        foreach (var obj in json.u)
+                        {
+                            Mamichan.InfoLog(obj.Name);
+                            USettings.addUserPoint(obj.Name, USettings.answerpoint);
+                        }
+                    }
+                });
+
             ManualResetEvent.WaitOne();
         }
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MamiBot2;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,13 +7,14 @@ using System.Threading.Tasks;
 
 namespace MamiBot2.Commands.SubCommandImpl
 {
-    public class SubCommandGay : SubCommand
+    public class SubCommandOverlay : SubCommand
     {
+
         public string Name
         {
             get
             {
-                return "gay";
+                return "overlay";
             }
         }
 
@@ -25,8 +27,7 @@ namespace MamiBot2.Commands.SubCommandImpl
         }
         public bool Parse(Message msg, string[] args)
         {
-            Random r = new Random();
-            Mamichan.SendMessage(msg.disname + ": " + "Your gay level is " + r.Next(0, 101));
+            Mamichan.SendMessage("Overlay cmd");
             return true;
         }
     }

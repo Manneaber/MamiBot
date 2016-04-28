@@ -24,6 +24,19 @@ namespace MamiBot2
             return Properties.Settings.Default.UserID;
         }
 
+        public static int answerpoint
+        {
+            get
+            {
+                return Properties.Settings.Default.AnswerPoint;
+            }
+            set
+            {
+                Properties.Settings.Default.AnswerPoint = value;
+                Properties.Settings.Default.Save();
+            }
+        }
+
         public static void saveSetting(string token, string roomid, string userid)
         {
             Properties.Settings.Default.Token = token;

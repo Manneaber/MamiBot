@@ -25,14 +25,15 @@ namespace MamiBot2
         [Flags]
         public enum Role
         {
-            GUEST = 0,
-            MEMBER = 1,
-            ELITE = 3,
-            SUBER = 4,
-            MOD = 6,
-            OWNER = 7,
+            BOT = 9,
             ADMIN = 8,
-            BOT = 9
+            OWNER = 7,
+            MOD = 6,
+            CHAT = 5,
+            SUBER = 4,
+            ELITE = 3,
+            MEMBER = 1,
+            GUEST = 0
 
         }
     }

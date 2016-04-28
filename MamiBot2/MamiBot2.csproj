@@ -66,7 +66,7 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>
@@ -104,7 +104,9 @@
     <Compile Include="Commands\Impl\ChatFilter.cs" />
     <Compile Include="Commands\Impl\CommandImpl.cs" />
     <Compile Include="Commands\SubCommand.cs" />
-    <Compile Include="Commands\SubCommandImpl\SubCommandGay.cs" />
+    <Compile Include="Commands\SubCommandImpl\SubCommandSetting.cs" />
+    <Compile Include="Commands\SubCommandImpl\SubCommandSaikung.cs" />
+    <Compile Include="Commands\SubCommandImpl\SubCommandOverlay.cs" />
     <Compile Include="Commands\SubCommandImpl\SubCommandHelp.cs" />
     <Compile Include="Commands\SubCommandImpl\SubCommandJohn.cs" />
     <Compile Include="Commands\SubCommandImpl\SubCommandAbout.cs" />
