@@ -49,7 +49,7 @@ namespace MamiBot2.Commands.SubCommandImpl
             }
             catch (Exception e)
             {
-                Mamichan.InfoLog(e.ToString());
+                
             }
 
             return true;
