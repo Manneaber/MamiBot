@@ -117,9 +117,10 @@ namespace MamiBot2
             Close();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            WindowState = FormWindowState.Minimized;
+            MessageBox.Show("Guide coming sooon");
         }
+
     }
 }

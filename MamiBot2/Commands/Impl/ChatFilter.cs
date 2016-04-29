@@ -45,9 +45,6 @@ namespace MamiBot2.Commands.Impl
                 case "ใครเป็นเกย์":
                     Mamichan.SendMessage("ต๊วงเกย์");
                     break;
-                case "?":
-                    Mamichan.SendMessage("?");
-                    break;
                 default:
                     break;
             }
