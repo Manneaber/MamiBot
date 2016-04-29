@@ -158,7 +158,7 @@
             // 
             this.Fav.AutoSize = true;
             this.Fav.ForeColor = System.Drawing.Color.White;
-            this.Fav.Location = new System.Drawing.Point(98, 147);
+            this.Fav.Location = new System.Drawing.Point(99, 147);
             this.Fav.Name = "Fav";
             this.Fav.Size = new System.Drawing.Size(51, 13);
             this.Fav.TabIndex = 6;
